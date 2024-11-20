@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC28A7DB2CA9934A000E2949 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28A7DA2CA9934A000E2949 /* User.swift */; };
+		EC28A7DE2CA9DE15000E2949 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28A7DD2CA9DE15000E2949 /* ListViewModel.swift */; };
+		EC2A57F72CAE14A900B02F78 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A57F62CAE14A900B02F78 /* AuthViewModel.swift */; };
+		EC64A12C2CA2F8CF00837318 /* kaki2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64A12B2CA2F8CF00837318 /* kaki2App.swift */; };
+		EC64A1302CA2F8CF00837318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC64A12F2CA2F8CF00837318 /* Assets.xcassets */; };
+		EC64A1332CA2F8CF00837318 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC64A1322CA2F8CF00837318 /* Preview Assets.xcassets */; };
+		ECB3096A2CAD2A2700EDFF8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECB309692CAD2A2700EDFF8F /* GoogleService-Info.plist */; };
+		ECB3096E2CAD2EC800EDFF8F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = ECB3096D2CAD2EC800EDFF8F /* FirebaseFirestore */; };
+		ECB309702CAD370A00EDFF8F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = ECB3096F2CAD370A00EDFF8F /* FirebaseAuth */; };
+		ECB309722CAD371400EDFF8F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = ECB309712CAD371400EDFF8F /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC28A7DA2CA9934A000E2949 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EC28A7DD2CA9DE15000E2949 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		EC2A57F62CAE14A900B02F78 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		EC64A1282CA2F8CF00837318 /* kaki2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kaki2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC64A12B2CA2F8CF00837318 /* kaki2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaki2App.swift; sourceTree = "<group>"; };
+		EC64A12F2CA2F8CF00837318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC64A1322CA2F8CF00837318 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECB309692CAD2A2700EDFF8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		ECB309662CAC484D00EDFF8F /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				action.swift,
+				Extensions.swift,
+			);
+			target = EC64A1272CA2F8CF00837318 /* kaki2 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ECB309612CABEF9200EDFF8F /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
+		ECB309632CAC483600EDFF8F /* Utils */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (ECB309662CAC484D00EDFF8F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Utils; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC64A1252CA2F8CF00837318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB3096E2CAD2EC800EDFF8F /* FirebaseFirestore in Frameworks */,
+				ECB309702CAD370A00EDFF8F /* FirebaseAuth in Frameworks */,
+				ECB309722CAD371400EDFF8F /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC28A7D92CA99329000E2949 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC28A7DA2CA9934A000E2949 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC28A7DC2CA9DDA9000E2949 /* ViewModwls */ = {
+			isa = PBXGroup;
+			children = (
+				EC28A7DD2CA9DE15000E2949 /* ListViewModel.swift */,
+				EC2A57F62CAE14A900B02F78 /* AuthViewModel.swift */,
+				ECB309692CAD2A2700EDFF8F /* GoogleService-Info.plist */,
+			);
+			path = ViewModwls;
+			sourceTree = "<group>";
+		};
+		EC64A11F2CA2F8CF00837318 = {
+			isa = PBXGroup;
+			children = (
+				EC64A12A2CA2F8CF00837318 /* kaki2 */,
+				ECB3096C2CAD2EC800EDFF8F /* Frameworks */,
+				EC64A1292CA2F8CF00837318 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC64A1292CA2F8CF00837318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC64A1282CA2F8CF00837318 /* kaki2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC64A12A2CA2F8CF00837318 /* kaki2 */ = {
+			isa = PBXGroup;
+			children = (
+				EC64A12B2CA2F8CF00837318 /* kaki2App.swift */,
+				EC28A7D92CA99329000E2949 /* Models */,
+				ECB309612CABEF9200EDFF8F /* Views */,
+				ECB309632CAC483600EDFF8F /* Utils */,
+				EC28A7DC2CA9DDA9000E2949 /* ViewModwls */,
+				EC64A12F2CA2F8CF00837318 /* Assets.xcassets */,
+				EC64A1312CA2F8CF00837318 /* Preview Content */,
+			);
+			path = kaki2;
+			sourceTree = "<group>";
+		};
+		EC64A1312CA2F8CF00837318 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC64A1322CA2F8CF00837318 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECB3096C2CAD2EC800EDFF8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC64A1272CA2F8CF00837318 /* kaki2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC64A1362CA2F8CF00837318 /* Build configuration list for PBXNativeTarget "kaki2" */;
+			buildPhases = (
+				EC64A1242CA2F8CF00837318 /* Sources */,
+				EC64A1252CA2F8CF00837318 /* Frameworks */,
+				EC64A1262CA2F8CF00837318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ECB309612CABEF9200EDFF8F /* Views */,
+			);
+			name = kaki2;
+			productName = kaki2;
+			productReference = EC64A1282CA2F8CF00837318 /* kaki2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC64A1202CA2F8CF00837318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EC64A1272CA2F8CF00837318 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = EC64A1232CA2F8CF00837318 /* Build configuration list for PBXProject "kaki2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC64A11F2CA2F8CF00837318;
+			packageReferences = (
+				ECB3096B2CAD2AF700EDFF8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = EC64A1292CA2F8CF00837318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC64A1272CA2F8CF00837318 /* kaki2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC64A1262CA2F8CF00837318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC64A1332CA2F8CF00837318 /* Preview Assets.xcassets in Resources */,
+				EC64A1302CA2F8CF00837318 /* Assets.xcassets in Resources */,
+				ECB3096A2CAD2A2700EDFF8F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC64A1242CA2F8CF00837318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC28A7DB2CA9934A000E2949 /* User.swift in Sources */,
+				EC64A12C2CA2F8CF00837318 /* kaki2App.swift in Sources */,
+				EC2A57F72CAE14A900B02F78 /* AuthViewModel.swift in Sources */,
+				EC28A7DE2CA9DE15000E2949 /* ListViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EC64A1342CA2F8CF00837318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC64A1352CA2F8CF00837318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC64A1372CA2F8CF00837318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kaki2/Preview Content\"";
+				DEVELOPMENT_TEAM = K6CP3MSN8S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.hk.kazuki.hayashi.kaki2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC64A1382CA2F8CF00837318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kaki2/Preview Content\"";
+				DEVELOPMENT_TEAM = K6CP3MSN8S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.hk.kazuki.hayashi.kaki2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC64A1232CA2F8CF00837318 /* Build configuration list for PBXProject "kaki2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC64A1342CA2F8CF00837318 /* Debug */,
+				EC64A1352CA2F8CF00837318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC64A1362CA2F8CF00837318 /* Build configuration list for PBXNativeTarget "kaki2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC64A1372CA2F8CF00837318 /* Debug */,
+				EC64A1382CA2F8CF00837318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ECB3096B2CAD2AF700EDFF8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ECB3096D2CAD2EC800EDFF8F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECB3096B2CAD2AF700EDFF8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		ECB3096F2CAD370A00EDFF8F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECB3096B2CAD2AF700EDFF8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		ECB309712CAD371400EDFF8F /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECB3096B2CAD2AF700EDFF8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EC64A1202CA2F8CF00837318 /* Project object */;
+}
